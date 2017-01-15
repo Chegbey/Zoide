@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		496DDBFC1E2BC22C00E4474C /* Sqlite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496DDBFB1E2BC22C00E4474C /* Sqlite.swift */; };
+		49D769EA1E004560003E07EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D769E91E004560003E07EA /* AppDelegate.swift */; };
+		49D769EC1E004560003E07EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D769EB1E004560003E07EA /* ViewController.swift */; };
+		49D769EF1E004560003E07EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D769ED1E004560003E07EA /* Main.storyboard */; };
+		49D769F11E004560003E07EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49D769F01E004560003E07EA /* Assets.xcassets */; };
+		49D769F41E004560003E07EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49D769F21E004560003E07EA /* LaunchScreen.storyboard */; };
+		49D769FF1E004560003E07EA /* zoideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D769FE1E004560003E07EA /* zoideTests.swift */; };
+		49F748CD1E2BC86F0096904E /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F748CC1E2BC86F0096904E /* Package.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		496DDC071E2BC62900E4474C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496DDBFD1E2BC62900E4474C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		496DDC091E2BC62900E4474C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496DDBFD1E2BC62900E4474C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		496DDC0B1E2BC62900E4474C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496DDBFD1E2BC62900E4474C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		496DDC0D1E2BC62900E4474C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496DDBFD1E2BC62900E4474C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		496DDC0F1E2BC62900E4474C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496DDBFD1E2BC62900E4474C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		496DDC111E2BC62900E4474C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496DDBFD1E2BC62900E4474C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		496DDC131E2BC62900E4474C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 496DDBFD1E2BC62900E4474C /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		49D769FB1E004560003E07EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49D769DE1E004560003E07EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49D769E51E004560003E07EA;
+			remoteInfo = zoide;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		496DDBFB1E2BC22C00E4474C /* Sqlite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sqlite.swift; sourceTree = "<group>"; };
+		496DDBFD1E2BC62900E4474C /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		49D769E61E004560003E07EA /* zoide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zoide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D769E91E004560003E07EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49D769EB1E004560003E07EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49D769EE1E004560003E07EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49D769F01E004560003E07EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49D769F31E004560003E07EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49D769F51E004560003E07EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49D769FA1E004560003E07EA /* zoideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zoideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49D769FE1E004560003E07EA /* zoideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoideTests.swift; sourceTree = "<group>"; };
+		49D76A001E004560003E07EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F748CC1E2BC86F0096904E /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49D769E31E004560003E07EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D769F71E004560003E07EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		496DDBFE1E2BC62900E4474C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				496DDC081E2BC62900E4474C /* SQLite.framework */,
+				496DDC0A1E2BC62900E4474C /* SQLiteTests iOS.xctest */,
+				496DDC0C1E2BC62900E4474C /* SQLite.framework */,
+				496DDC0E1E2BC62900E4474C /* SQLiteTests Mac.xctest */,
+				496DDC101E2BC62900E4474C /* SQLite.framework */,
+				496DDC121E2BC62900E4474C /* SQLiteTests tvOS.xctest */,
+				496DDC141E2BC62900E4474C /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D769DD1E004560003E07EA = {
+			isa = PBXGroup;
+			children = (
+				49D769E81E004560003E07EA /* zoide */,
+				49D769FD1E004560003E07EA /* zoideTests */,
+				49D769E71E004560003E07EA /* Products */,
+				496DDBFD1E2BC62900E4474C /* SQLite.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		49D769E71E004560003E07EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49D769E61E004560003E07EA /* zoide.app */,
+				49D769FA1E004560003E07EA /* zoideTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49D769E81E004560003E07EA /* zoide */ = {
+			isa = PBXGroup;
+			children = (
+				49F748CC1E2BC86F0096904E /* Package.swift */,
+				496DDBFB1E2BC22C00E4474C /* Sqlite.swift */,
+				49D769E91E004560003E07EA /* AppDelegate.swift */,
+				49D769EB1E004560003E07EA /* ViewController.swift */,
+				49D769ED1E004560003E07EA /* Main.storyboard */,
+				49D769F01E004560003E07EA /* Assets.xcassets */,
+				49D769F21E004560003E07EA /* LaunchScreen.storyboard */,
+				49D769F51E004560003E07EA /* Info.plist */,
+			);
+			path = zoide;
+			sourceTree = "<group>";
+		};
+		49D769FD1E004560003E07EA /* zoideTests */ = {
+			isa = PBXGroup;
+			children = (
+				49D769FE1E004560003E07EA /* zoideTests.swift */,
+				49D76A001E004560003E07EA /* Info.plist */,
+			);
+			path = zoideTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49D769E51E004560003E07EA /* zoide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D76A031E004560003E07EA /* Build configuration list for PBXNativeTarget "zoide" */;
+			buildPhases = (
+				49D769E21E004560003E07EA /* Sources */,
+				49D769E31E004560003E07EA /* Frameworks */,
+				49D769E41E004560003E07EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zoide;
+			productName = zoide;
+			productReference = 49D769E61E004560003E07EA /* zoide.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49D769F91E004560003E07EA /* zoideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49D76A061E004560003E07EA /* Build configuration list for PBXNativeTarget "zoideTests" */;
+			buildPhases = (
+				49D769F61E004560003E07EA /* Sources */,
+				49D769F71E004560003E07EA /* Frameworks */,
+				49D769F81E004560003E07EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49D769FC1E004560003E07EA /* PBXTargetDependency */,
+			);
+			name = zoideTests;
+			productName = zoideTests;
+			productReference = 49D769FA1E004560003E07EA /* zoideTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49D769DE1E004560003E07EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zoide;
+				TargetAttributes = {
+					49D769E51E004560003E07EA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = US829H35Q8;
+						ProvisioningStyle = Automatic;
+					};
+					49D769F91E004560003E07EA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = US829H35Q8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49D769E51E004560003E07EA;
+					};
+				};
+			};
+			buildConfigurationList = 49D769E11E004560003E07EA /* Build configuration list for PBXProject "zoide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49D769DD1E004560003E07EA;
+			productRefGroup = 49D769E71E004560003E07EA /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 496DDBFE1E2BC62900E4474C /* Products */;
+					ProjectRef = 496DDBFD1E2BC62900E4474C /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				49D769E51E004560003E07EA /* zoide */,
+				49D769F91E004560003E07EA /* zoideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		496DDC081E2BC62900E4474C /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 496DDC071E2BC62900E4474C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		496DDC0A1E2BC62900E4474C /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 496DDC091E2BC62900E4474C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		496DDC0C1E2BC62900E4474C /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 496DDC0B1E2BC62900E4474C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		496DDC0E1E2BC62900E4474C /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 496DDC0D1E2BC62900E4474C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		496DDC101E2BC62900E4474C /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 496DDC0F1E2BC62900E4474C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		496DDC121E2BC62900E4474C /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 496DDC111E2BC62900E4474C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		496DDC141E2BC62900E4474C /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 496DDC131E2BC62900E4474C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49D769E41E004560003E07EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D769F41E004560003E07EA /* LaunchScreen.storyboard in Resources */,
+				49D769F11E004560003E07EA /* Assets.xcassets in Resources */,
+				49D769EF1E004560003E07EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D769F81E004560003E07EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49D769E21E004560003E07EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F748CD1E2BC86F0096904E /* Package.swift in Sources */,
+				49D769EC1E004560003E07EA /* ViewController.swift in Sources */,
+				496DDBFC1E2BC22C00E4474C /* Sqlite.swift in Sources */,
+				49D769EA1E004560003E07EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49D769F61E004560003E07EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D769FF1E004560003E07EA /* zoideTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49D769FC1E004560003E07EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49D769E51E004560003E07EA /* zoide */;
+			targetProxy = 49D769FB1E004560003E07EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49D769ED1E004560003E07EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D769EE1E004560003E07EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49D769F21E004560003E07EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49D769F31E004560003E07EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49D76A011E004560003E07EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49D76A021E004560003E07EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49D76A041E004560003E07EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = US829H35Q8;
+				INFOPLIST_FILE = zoide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoide.zoide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		49D76A051E004560003E07EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = US829H35Q8;
+				INFOPLIST_FILE = zoide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoide.zoide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		49D76A071E004560003E07EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = US829H35Q8;
+				INFOPLIST_FILE = zoideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoide.zoideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zoide.app/zoide";
+			};
+			name = Debug;
+		};
+		49D76A081E004560003E07EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = US829H35Q8;
+				INFOPLIST_FILE = zoideTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zoide.zoideTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zoide.app/zoide";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49D769E11E004560003E07EA /* Build configuration list for PBXProject "zoide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D76A011E004560003E07EA /* Debug */,
+				49D76A021E004560003E07EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D76A031E004560003E07EA /* Build configuration list for PBXNativeTarget "zoide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D76A041E004560003E07EA /* Debug */,
+				49D76A051E004560003E07EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49D76A061E004560003E07EA /* Build configuration list for PBXNativeTarget "zoideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49D76A071E004560003E07EA /* Debug */,
+				49D76A081E004560003E07EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49D769DE1E004560003E07EA /* Project object */;
+}
