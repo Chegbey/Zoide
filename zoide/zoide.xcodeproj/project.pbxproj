@@ -90,6 +90,7 @@
 		49D769FE1E004560003E07EA /* zoideTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoideTests.swift; sourceTree = "<group>"; };
 		49D76A001E004560003E07EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49F748CC1E2BC86F0096904E /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		49F748D51E2BCCC90096904E /* zoide.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = zoide.db; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +128,7 @@
 		49D769DD1E004560003E07EA = {
 			isa = PBXGroup;
 			children = (
+				49F748D51E2BCCC90096904E /* zoide.db */,
 				49D769E81E004560003E07EA /* zoide */,
 				49D769FD1E004560003E07EA /* zoideTests */,
 				49D769E71E004560003E07EA /* Products */,
